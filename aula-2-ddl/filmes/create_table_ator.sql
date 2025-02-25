@@ -1,0 +1,8 @@
+USE filmes;
+
+CREATE TABLE ator (
+    IDAtor INTEGER PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    IDPais INTEGER NOT NULL,
+    DataNascimento DATE NOT NULL
+);

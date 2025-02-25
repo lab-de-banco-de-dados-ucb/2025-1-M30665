@@ -1,0 +1,4 @@
+CREATE TABLE pais (
+	IDPais INT PRIMARY KEY,
+    Nome VARCHAR(50) NOT NULL
+);
