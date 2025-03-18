@@ -1,0 +1,10 @@
+USE filmes;
+
+UPDATE Ator SET Nome = CONCAT(
+UPPER(SUBSTRING(Nome, 1, 1)),
+LOWER(SUBSTRING(Nome, 2))
+
+);
+	
+
+SELECT * FROM Ator;
